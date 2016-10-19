@@ -90,9 +90,33 @@ header {
     float: left;
 }
 
+
 .div-card-2{
     min-height: 460px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
     padding-top: 8px !important;
     box-sizing: inherit;
+}
+
+
+
+.social-pane > ul {
+	overflow: auto;
+}
+
+.social-pane > ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.social-pane > ul li a i {
+	background: #205D7A;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
 }
